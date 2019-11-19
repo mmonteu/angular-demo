@@ -20,7 +20,7 @@ git pull https://github.com/mmonteu/angular-demo.git
 ```
 ng serve
 ```
-Go to `http://localhost:4200/`.
+Go to `http://localhost:4200/`
 
 ## :copyright: Copyright
 Marc Monteu - 2019

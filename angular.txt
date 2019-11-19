@@ -2,8 +2,20 @@ Initialiser Angular :
 	- Installer node.js : https://nodejs.org/en/download/
 	- Tester l'installation de node avec la commande : ($ node -v)
 	- Tester l'installation de npm avec la commande : ($ npm -v)
+
 	- Installer Angular : ($ npm install -g @angular/cli)
+	- Angular version ($ ng --version)
+	- Mettre à jour Angular : ($ ng update --all)
+	- Installer les dépendances : ($ npm install --save-dev @angular-devkit/build-angular)
 
 Créer un projet :
-	- Se rendre sur le dossier racine, puis créer un projet angular : ($ ng new xxx)
+	- Se rendre sur le dossier racine, puis créer un projet angular : ($ ng new xxx --skip-tests=true)
 	- Lancer le serveur : ($ ng serve)
+	- http://localhost:4200/
+
+Bootstrap :
+	- Installer bootstrap : ($ npm install bootstrap@4.3.1 --save)
+	- Se rendre dans le angular.json, ajouter style (ligne 26) : "./node_modules/bootstrap/dist/css/bootstrap.css",
+
+Créer un component :
+	- Dossier racine : ($ ng g c xxx)

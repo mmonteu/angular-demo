@@ -1,0 +1,8 @@
+<div class="{{ redClass }}">
+	<p *ngIf="showTitle; else otherTitle">Bonjour {{ name }}, tu as {{ age }} ans.</p>
+	<button type="button" class="btn btn-primary">Primary</button>
+	<button type="button" class="btn btn-secondary">Secondary</button>
+	<ng-template #otherTitle> <p>Bonjour vous êtes sur le deuxième titre.</p> </ng-template>
+</div>
+
+<input type="text" value="demo">
